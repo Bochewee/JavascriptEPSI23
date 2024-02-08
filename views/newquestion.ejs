@@ -1,0 +1,18 @@
+<form id="questionForm" action="/qcms/question" method="post">
+    <div>
+        <label for="questionText">Question :</label>
+        <input type="text" id="questionText" name="questionText">
+    </div>
+    <div id="choicesContainer">
+        <div class="choice">
+            <label for="choice1">Choix 1:</label>
+            <input type="text" id="choice1" name="choices[]">
+        </div>
+        <div class="choice">
+            <label for="choice2">Choix 2:</label>
+            <input type="text" id="choice2" name="choices[]">
+        </div>
+    </div>
+    <button type="button" id="addChoiceButton">Ajouter une réponse</button>
+    <input type="submit" value="Créer la question">
+</form>

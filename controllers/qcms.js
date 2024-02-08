@@ -32,4 +32,5 @@ const createNewForm = (req, res) => {
     res.redirect('/qcms');
 };
 
+
 module.exports = {displayQcms, displayFormQcm, createNewForm, displayQcmJson, displayQcmDetailed};

@@ -1,6 +1,6 @@
 
 const welcomeMessage = (request, response) => {
-    response.send('Bienvenue');
+    response.send('Bienvenue dans le QCM');
 };
 
 const welcomeMessageFunction = function(request, response) {
